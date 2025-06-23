@@ -136,9 +136,5 @@ DATA_RETENTION_HOURS=24
 ```
 
 
-```bash
-# Clone repository
-git clone https://github.com/your-org/gtmotion-linkedin-automation.git
-
-# Create virtual environment
-python -m venv venv
+# Easy Run
+For simplicity, after installing the dependencies, just run test_local.py
