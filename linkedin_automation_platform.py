@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """
-GTMotion.ai LinkedIn Automation Platform
 Main application for AI-driven LinkedIn messaging automation
 """
 
@@ -16,7 +15,7 @@ from dataclasses import dataclass
 from cryptography.fernet import Fernet
 import requests
 import time
-from decimal import Decimal  # ✅ FIXED: import Decimal for DynamoDB compatibility
+from decimal import Decimal  # FIXED: import Decimal for DynamoDB compatibility
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
